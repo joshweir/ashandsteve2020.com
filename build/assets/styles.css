@@ -81,6 +81,7 @@ body {
   font-size: 3rem;
   font-family: sans-serif;
   opacity: 0.9;
+  font-size: 60px;
 }
 
 .rsvp-link:hover {
@@ -97,6 +98,14 @@ body {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 1s linear;
+}
+
+.headline h1 {
+  font-size: 30px;
+}
+
+.headline span {
+  font-size: 16px;
 }
 
 .headline.active {
