@@ -81,7 +81,6 @@ body {
   font-size: 3rem;
   font-family: sans-serif;
   opacity: 0.9;
-  font-size: 60px;
 }
 
 .rsvp-link:hover {
@@ -100,15 +99,25 @@ body {
   transition: visibility 0s, opacity 1s linear;
 }
 
-.headline h1 {
-  font-size: 30px;
-}
-
-.headline span {
-  font-size: 16px;
-}
-
 .headline.active {
   visibility: visible;
   opacity: 0.9;
+}
+
+main {
+  background-position: 50% 0;
+}
+
+@media only screen and (max-device-width: 700px) {
+  .headline h1 {
+    font-size: 7vw;
+  }
+  
+  .headline span {
+    font-size: 4vw;
+  }
+
+  .rsvp-link {
+    font-size: 10vw;
+  }
 }
