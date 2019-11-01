@@ -27,6 +27,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 33%;
 }
 
 body {
@@ -145,6 +146,7 @@ main {
   background: url(2997872.jpg);
   background-size: contain;
   padding: 20px;
+  width: 100%;
 }
 
 @media only screen and (max-device-width: 700px) {
